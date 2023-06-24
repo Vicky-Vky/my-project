@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-project/static/css/main.70479d33.css",
+    "main.js": "/my-project/static/js/main.3fe5beb0.js",
+    "static/media/v960-ning-30.jpg": "/my-project/static/media/v960-ning-30.945a8bf0825b6a8af452.jpg",
+    "index.html": "/my-project/index.html",
+    "main.70479d33.css.map": "/my-project/static/css/main.70479d33.css.map",
+    "main.3fe5beb0.js.map": "/my-project/static/js/main.3fe5beb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70479d33.css",
+    "static/js/main.3fe5beb0.js"
+  ]
+}
