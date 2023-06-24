@@ -9,13 +9,12 @@ function App() {
 ]);
 
 const user_request = async()=>{
-  const url = 'https://reqres.in/api/users?page=2';
+  const url = 'https://reqres.in/api/users?page=1';
   const response = await fetch(url);
   const responseJson = await response.json()
   console.log(responseJson);
   setData(responseJson.data)
 }
-
 useEffect(()=>{
   user_request();
 },[]);

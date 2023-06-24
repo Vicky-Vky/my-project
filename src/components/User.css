@@ -18,17 +18,23 @@
     margin-top: 15px;
     height: auto;
 }
+.f_name{
+    margin: auto;
+    width: 10%;
+    background: transparent;
+    margin-top: 10px;
+}
 .user_id{
     position : absolute;
     top: 3%;
     left: 85%;
         border-radius: 50%;
-        width: auto;
+        width: 40px;
         height: auto;
         padding: 10px;
-        background: #fff;
-        border: 3px solid #000;
-        color: #000;
+        background: rgba(0, 0, 0, 0.629);
+        /* border: 3px solid #00000000; */
+        color: #ffffff;
         text-align: center;
         font: 20px Arial, sans-serif;
 }
@@ -45,7 +51,11 @@
     padding: 10px 20px;
     backdrop-filter: blur(4px) saturate(180%);
 }
-
+.user_image{
+    margin: auto;
+    margin-left: 50%;
+    filter: drop-shadow(16px 16px 8px rgba(0, 0, 0, 0.843));
+}
 #searchInput{
     background:transparent;
     flex: 1;
